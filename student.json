@@ -1,0 +1,190 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 18,
+      "grade": "12th",
+      "subjects": [
+        "Math",
+        "Physics",
+        "English"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 17,
+      "grade": "11th",
+      "subjects": [
+        "Biology",
+        "Chemistry",
+        "History"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "David Johnson",
+      "age": 16,
+      "grade": "10th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Art"
+      ]
+    },
+    {
+      "id": "4209",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "c6a1",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "051f",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "c832",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "3075",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "c3f5",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "774b",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "ad4d",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "0e22",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "9148",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "4211",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    },
+    {
+      "id": "222a",
+      "name": "David Rocky",
+      "age": 18,
+      "grade": "11th",
+      "subjects": [
+        "Computer Science",
+        "Spanish",
+        "Beach"
+      ]
+    }
+  ]
+}
+
+
+APProach 1. run collection in cmd
+=======================================
+
+npm install -g newman
+npm install -g newman-reporter-html
+
+1. this is command line report
+go to the exported collection file, folder >> cmd >> newman run "API chaining.postman_collection.json"
+
+2.through html report
+==> newman run "API chaining.postman_collection.json" -r html
+==> it will get the html file location where u stored inside the foledr of >> API chaining.postman_collection.json
+
+
+APProach 2. run collection remotely by url
+=======================================
+==> newman run "(url) this can get 3 dots of collection >> share >> json link paste url" -r html
+
+https://shivas-01072000-3931075.postman.co/workspace/321bf256-b046-4a1b-843e-ad3293323b59/collection/51862806-b0441f40-9c8e-4d53-987c-6405dc0a2ac5?action=share&source=copy-link&creator=51862806
